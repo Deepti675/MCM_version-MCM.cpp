@@ -9,7 +9,7 @@ using namespace std;
 int solve(int a[],int i,int j)
 { 
     int mn=INT_MAX;
-    if(i==j)
+    if(i>=j)
     return 0;
     for(int k=i;k<=j-1;k++)
     {
